@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hex Palette Genrator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/random favicon.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="main">
+    
+        <div class="top-cont">
+            <a class="chumskii" href="https://github.com/blakwizard" target="_blank"><img src="assets/solid-wizard.svg" alt=""><span>ChumskiiSama</span></a>
+            <h1>Random Hex Color Generator</h1>
+        </div>
+
+        <div class="color-content">
+            <div class="color-boxes">
+                <div class="instru-btn">
+                    <div class="buttons">
+                        <button class="generate-btn" id="genBtn">Generate color</button>
+                        <button class="reset-btn" id="resetBtn">Reset</button>
+                    </div>
+                    <div class="instruction">
+                        <p>Clcik on the color palette to copy color to clipboard</p>
+                    </div>
+                </div>
+               
+
+                <div class="color-box-collection">
+                    <div class="color-boxe">
+                        <div class="color-box" id="firstColorBox"></div>
+                        <p class="hexcode" id="firstHexCode">#F8FAFC</p>
+                    </div>
+                    <div class="color-boxe">
+                        <div class="color-box" id="secondColorBox"></div>
+                        <p class="hexcode" id="secondtHexCode">#F8FAFC</p>
+                    </div>
+                    <div class="color-boxe">
+                        <div class="color-box" id="thirdColorBox"></div>
+                        <p class="hexcode" id="thirdHexCode">#F8FAFC</p>
+                    </div>
+                    <div class="color-boxe">
+                        <div class="color-box" id="fourthColorBox"></div>
+                        <p class="hexcode" id="fourthHexCode">#F8FAFC</p>
+                    </div>
+                    <div class="color-boxe">
+                        <div class="color-box" id="fifthColorBox"></div>
+                        <p class="hexcode" id="fifthHexCode">#F8FAFC</p>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+
+        <div class="color-tips">
+            <div class="tip-title">
+                <div class="icon-container">
+                    <span class="material-symbols-outlined">lightbulb_2</span>
+                </div>
+                <p>Color Theory Tips</p>
+            </div>
+            <div class="tips">
+                <ul>
+                    <div class="for-list">
+                        <li>Understand the Color Wheel 🎨</li>
+                        <p>The color wheel helps you create harmonious palettes. Complementary colors (opposite on the wheel) create contrast, while analogous colors (next to each other) offer a cohesive look.</p>
+                    </div>
+                    <div class="for-list">
+                        <li>Ensure Contrast for Readability ✅</li>
+                        <p>Text and background colors should have enough contrast to improve accessibility. Use tools like the WebAIM contrast checker to meet WCAG standards.</p>
+                    </div>
+                    <div class="for-list">
+                        <li>Limit Your Palette 🎯</li>
+                        <p>Too many colors can overwhelm users. Stick to 3–5 colors in a design system for consistency and visual appeal. Tools like Coolors and Adobe Color can help generate palettes.</p>
+                    </div>
+                   
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+  
+    
+
+
+    <script src="index.js"></script>
+</body>
+</html>
